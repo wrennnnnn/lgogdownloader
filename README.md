@@ -21,7 +21,7 @@ It uses the same API as GOG Galaxy which doesn't have Linux support at the momen
 * [grep](https://www.gnu.org/software/grep/)
 * [binutils](https://www.gnu.org/software/binutils/) (readelf)
 
-### Debian/Ubuntu
+### Debian/Ubuntu Dependencies Install
 
   ```bash
 sudo apt-get update -y
@@ -30,11 +30,13 @@ sudo apt-get install build-essential libcurl4-openssl-dev libboost-regex-dev lib
 
 ## Build and install
 
-    $ mkdir build
-    $ cd build
-    $ cmake .. -DCMAKE_INSTALL_PREFIX=/usr -DCMAKE_BUILD_TYPE=Release -DUSE_QT_GUI=ON
-    $ make
-    # sudo make install
+```bash
+mkdir build
+cd build
+cmake .. -DCMAKE_INSTALL_PREFIX=/usr -DCMAKE_BUILD_TYPE=Release -DUSE_QT_GUI=ON
+make
+sudo make install
+```
 
 ## Usage examples
 
