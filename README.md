@@ -23,11 +23,10 @@ It uses the same API as GOG Galaxy which doesn't have Linux support at the momen
 
 ### Debian/Ubuntu
 
-    # apt install build-essential libcurl4-openssl-dev libboost-regex-dev \
-    libjsoncpp-dev librhash-dev libtinyxml2-dev libhtmlcxx-dev \
-    libboost-system-dev libboost-filesystem-dev libboost-program-options-dev \
-    libboost-date-time-dev libboost-iostreams-dev help2man cmake libssl-dev \
-    pkg-config zlib1g-dev qtwebengine5-dev
+  ```bash
+sudo apt-get update -y
+sudo apt-get install build-essential libcurl4-openssl-dev libboost-regex-dev libjsoncpp-dev librhash-dev libtinyxml2-dev libhtmlcxx-dev libboost-system-dev libboost-filesystem-dev libboost-program-options-dev libboost-date-time-dev libboost-iostreams-dev help2man cmake libssl-dev pkg-config zlib1g-dev qtwebengine5-dev
+  ```
 
 ## Build and install
 
